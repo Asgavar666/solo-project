@@ -5,6 +5,7 @@
   padding: 18px 20px;
   height: 60px;
   width: 188px;
+
   i{
     height: 24px;
     width: 24px;
@@ -14,6 +15,7 @@
     font-size: 18px;
     color: #ffffff;
     z-index: 666;
+
     &:hover{
       cursor: pointer;
       
@@ -130,7 +132,6 @@ span{
 
 
 @media (max-width: 767px) {
-  
   .logo {
     width: 55px;
   }
@@ -160,6 +161,7 @@ span{
     position: absolute;
     left: 30px;
   }
+
   span{
     display: none;
   }

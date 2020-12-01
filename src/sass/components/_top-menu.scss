@@ -114,8 +114,10 @@
     height: 60px;
     min-width: 60px;
     padding: 16px;
+
     img {
       max-height: 18px;
+
       &:not(:first-of-type) {
         display: none;
       }
