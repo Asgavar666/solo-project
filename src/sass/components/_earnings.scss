@@ -1,0 +1,52 @@
+.earnings{
+  width: 75%;
+  margin: 15px auto;
+
+  .title {
+    text-align: left;
+    margin-left: 35px;
+  }
+
+  .chart-legend{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 36px;
+
+    .signups,
+    .ftd,
+    .earned{
+      background: $color-gray-light;
+      display: inline-flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+      padding-right: 20px;
+
+      .circle{
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        margin: auto 20px;
+                
+      }
+
+      #circle-blue{
+        background: $color-blue;
+      }
+
+      #circle-orange{
+        background: orange;
+      }
+
+      #circle-green{
+        background: green;
+      }
+    }
+  }
+}
+//change bg of .earned back to white
+.earned{
+  background: white !important;
+}
