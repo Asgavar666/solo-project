@@ -50,3 +50,36 @@
 .earned{
   background: white !important;
 }
+
+//layout for mobile
+
+@media(max-width: 1023px){
+  .summary-chart{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+    .earnings{
+      flex-direction: row;
+      justify-content: space-evenly;
+      height: 20px;
+      width: 100%;
+      .signups,
+      .ftd,
+      .earned{
+        flex: 0 0 30%;
+        max-width: 33%;
+        margin: auto 5px;
+        padding: 0;
+        .circle{
+          justify-content: space-between;
+          padding: 0;
+          margin: auto;
+        }
+        p{
+          margin: auto;
+        }
+      }
+    }
+  }
+}
